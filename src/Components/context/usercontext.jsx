@@ -18,7 +18,7 @@ const UserContext = createContext({
   handleDelete: () => {},
 });
 
-const API = "https://jsonplaceholder.typicode.com/users";
+const API = "http://localhost:3000/users";
 
 export const useUserContext = () => useContext(UserContext);
 

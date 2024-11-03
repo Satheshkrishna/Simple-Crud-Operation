@@ -11,7 +11,7 @@ function Home() {
         <div className="col-lg-7 text-center text-lg-start">
           
          {/* backgroud video */}
-         <video muted loop autoPlay src="./video/bubble bg.mp4"
+         <video muted loop autoPlay src="./video/log.mp4"
         //  playsinline
         // data-wf-ignore="true"
         // data-object-fit="cover"
@@ -24,7 +24,7 @@ function Home() {
         </div>
         <div className="col-md-10 mx-auto col-lg-7">
             <h2 className="display-4 fw-bold lh-1 text-white mb-4">
-              Enter Your <span className="text-danger">Data</span>
+              Crud <span className="text-danger">Operation</span>
             </h2>
           <form
             className="p-4 p-md-5 mb-5 border rounded bg-light"
@@ -46,7 +46,7 @@ function Home() {
                 type="email"
                 className="form-control"
                 id="emailInput"
-                placeholder="name@gmail.com"
+                placeholder="enter gmail"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -56,21 +56,12 @@ function Home() {
                 type="number"
                 className="form-control"
                 id="floatingNumber"
-                placeholder="Phone Number"
+                placeholder="phone Number"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />
             </div>
-            <div className="form-check mb-3">
-              <input
-                type="checkbox"
-                className="form-check-input"
-                id="rememberCheck"
-              />
-              <label className="form-check-label" htmlFor="rememberCheck">
-                Remember me
-              </label>
-            </div>
+         
             <button className="btn text-white w-100 " type="submit" style={{backgroundColor:"#1f3265"}}>
               Add To List
             </button>

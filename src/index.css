@@ -15,14 +15,14 @@
   background-position: 0 0;
   background-image: linear-gradient(
     to right,
-    #8b3dff,
-    #452066,
+    #000000,
+    #88ff00,
     #481f66,
     #2e295f,
     #1f3265,
     #16376c,
-    #8b3dff,
-    #452066
+    #000000,
+    #00eeff
   );
   background-size: 300%;
   animation-duration: 10s;
